@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pycache
+gate_monitoring/gateapp/__init__.py
+gate_monitoring/gate_monitoring/__init__.py
+gate_monitoring/gateapp/apps.py
+# Node/JS
+node_modules/
+package-lock.json
+dist/
+build/
+.eslintcache
+
+# frontend
+frontend/.gitignore
+frontend/eslint.config.js
+frontend/package.json
+frontend/public/
+frontend/src/assets/
+
+# Environment/config
+.env
+.env.local
+.env.development
+.env.production
+
+# System
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# Scripts
+backdate_git_commit.sh
+
+# Ignore folders but keep files
+gate_monitoring/gateapp/migrations/
+!gate_monitoring/gateapp/migrations/__init__.py
